@@ -3,7 +3,8 @@
 <script src="vendor/require.js/require.js"></script>
 <script src="vendor/three.js/examples/js/Detector.js"></script>
 <script src="vendor/threex.windowresize.js"></script>
-<body style='margin: 0px; background-color: #bbbbbb; overflow: hidden;'><script>
+<link rel="stylesheet" href="style.css">
+<body style='margin: 0px; overflow: hidden;'><script>
 require([
   'bower_components/threex.nyancat/package.require.js',
    ], function(){
@@ -103,4 +104,9 @@ require([
 		})
 	})
 })
-</script></body>
+</script>
+  <audio id="nyan-cat-song" src="https://beta.easycompzeeland.nl/nyancat/3d/nyan.mp3" loop></audio>
+  <button id="play-button">Play Nyan Cat Song</button>
+  <script src="script.js"></script>
+</body>
+</body>
